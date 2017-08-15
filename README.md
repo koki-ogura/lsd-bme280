@@ -1,7 +1,12 @@
 # lsd-bme280
 bme280 sensor module for node.js
 
-# test program
+## general install
+```
+# npm -g install lsd-bme280
+```
+
+## test program
 ```test.js
 var sleep = require('sleep');
 var async = require('async');
