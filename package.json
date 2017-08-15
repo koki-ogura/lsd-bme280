@@ -1,0 +1,24 @@
+{
+  "name": "lsd-bme280",
+  "version": "0.1.0",
+  "description": "bme280 sensor class via i2c",
+  "main": "index.js",
+  "homepage": "https://github.com/koki-ogura/lsd-bme280",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "i2c": "^0.2.3",
+    "sleep": "^5.1.1"
+  },
+  "keywords": [
+    "bme280",
+    "i2c",
+    "sensor"
+  ],
+  "author": "koki ogura",
+  "license": "MIT"
+}
