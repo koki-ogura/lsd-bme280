@@ -45,7 +45,7 @@ and Reboot
 ```
 
 ## node-red's function
-```
+```node.js
 var bme280 = context.get('bme280');
 if (!bme280) {
     var BME280 = global.get('bme280');
